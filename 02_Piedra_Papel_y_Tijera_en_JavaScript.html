@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Piedra, Papel y Tiejera en JavaScript</title>
+        <script> // 1 es piedra, 2 es papel, 3 es tijera
+            let jugador = 0
+            let pc = 2
+            jugador = prompt("Elige: 1 es piedra, 2 es papel y 3 es tijera") // En la variable jugador se guardara la elección del jugador
+            //alert("Elegiste " + jugador)
+
+            // Crearemos una condicional: Es un codigo que se ejecuto solo si la condición se cumple
+            if (jugador == 1){ // Haci son los condicionales en JavaScript, tenemos que colocar la candición dentro de parentesis
+                alert("Elegiste Piedra") // Si la condición se cumple entonces no dice el elemento que elegimos anteriormente
+            } else if (jugador == 2) { // else if: Es como un elif en python
+                alert("Elegiste Papel")
+            } else if (jugador == 3){
+                alert("Elegiste tijera")
+            } else { // else: Si ninguna de las condiciones anteriores se cumplio, ejecuta esto
+                alert("No se eligio una de las opciones dadas")
+            }
+            
+        </script>
+    </head>
+    <body>
+        <h1>Piedra, Papel o Tiejera</h1>
+    </body>
+</html>
+
